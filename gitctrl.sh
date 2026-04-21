@@ -7,19 +7,19 @@
 # Install deps: pkg install curl jq nano
 
 # ─── COLORS (Deep Space Dev) ────────────────────────
-C_RESET='\033[0m'
-C_CYAN='\033[0;96m'
-C_CYAN_B='\033[1;96m'
-C_PURPLE='\033[0;35m'
-C_PURPLE_B='\033[1;35m'
-C_GREEN='\033[0;92m'
-C_GREEN_B='\033[1;92m'
-C_RED='\033[0;91m'
-C_YELLOW='\033[0;93m'
-C_ORANGE='\033[38;5;208m'
-C_DIM='\033[0;90m'
-C_BOLD='\033[1m'
-C_UNDERLINE='\033[4m'
+C_RESET=$'\e[0m'
+C_CYAN=$'\e[0;96m'
+C_CYAN_B=$'\e[1;96m'
+C_PURPLE=$'\e[0;35m'
+C_PURPLE_B=$'\e[1;35m'
+C_GREEN=$'\e[0;92m'
+C_GREEN_B=$'\e[1;92m'
+C_RED=$'\e[0;91m'
+C_YELLOW=$'\e[0;93m'
+C_ORANGE=$'\e[38;5;208m'
+C_DIM=$'\e[0;90m'
+C_BOLD=$'\e[1m'
+C_UNDERLINE=$'\e[4m'
 
 # ─── CONFIG ─────────────────────────────────────────
 CONFIG_DIR="$HOME/.gitctrl"
